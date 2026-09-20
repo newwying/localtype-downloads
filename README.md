@@ -6,7 +6,7 @@
 
 安装包和离线指南在 [Releases](https://github.com/newwying/localtype-downloads/releases)。请按电脑类型选择 Windows x64、Mac Apple Silicon（M 系列芯片）或 Mac Intel。
 
-**0.3.11 Windows 测试版已发布。** [下载 Windows 安装器＋离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.3.11/Localtype-0.3.11-Windows-x64-test.zip)。Mac ARM／Intel 新版尚未构建，暂不提供下载。真实 CLI 安装登录与旧版覆盖升级完整矩阵仍待验收，详见发布说明。
+**0.3.12 Windows 测试版已发布。** [下载 Windows 安装器＋离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.3.12/Localtype-0.3.12-Windows-x64-test.zip)。Mac ARM／Intel 新版尚未构建，暂不提供下载。真实 CLI 安装登录与旧版覆盖升级完整矩阵仍待验收，详见发布说明。
 
 ## 新手指南
 
