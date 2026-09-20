@@ -6,7 +6,7 @@
 
 安装包和离线指南在 [Releases](https://github.com/newwying/localtype-downloads/releases)。请按电脑类型选择 Windows x64、Mac Apple Silicon（M 系列芯片）或 Mac Intel。
 
-**0.3.18 Windows 测试版已发布。** [直接下载 Windows 安装器](https://github.com/newwying/localtype-downloads/releases/download/v0.3.18/Localtype-0.3.18-Windows-x64-Setup.exe)，双击安装，无需解压。[安装包与离线指南 ZIP](https://github.com/newwying/localtype-downloads/releases/download/v0.3.18/Localtype-0.3.18-Windows-x64-with-guide.zip)。Mac Apple Silicon（M 系列）已发布：[推荐下载完整测试包（安装器＋指南＋启动助手）](https://github.com/newwying/localtype-downloads/releases/download/v0.3.18/Localtype-0.3.18-macOS-AppleSilicon-with-guide.zip) · [仅 DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.3.18/Localtype-0.3.18-macOS-AppleSilicon.dmg)。Intel 版尚未构建。验证范围见 [发布说明](https://github.com/newwying/localtype-downloads/releases/tag/v0.3.18)。
+**0.3.19 Windows 测试版已发布。** [直接下载 Windows 安装器](https://github.com/newwying/localtype-downloads/releases/download/v0.3.19/Localtype-0.3.19-Windows-x64-Setup.exe)，双击安装，无需解压。[安装包与离线指南 ZIP](https://github.com/newwying/localtype-downloads/releases/download/v0.3.19/Localtype-0.3.19-Windows-x64-with-guide.zip)。Mac Apple Silicon（M 系列）已发布：[推荐下载完整测试包（安装器＋指南＋启动助手）](https://github.com/newwying/localtype-downloads/releases/download/v0.3.19/Localtype-0.3.19-macOS-AppleSilicon-with-guide.zip) · [仅 DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.3.19/Localtype-0.3.19-macOS-AppleSilicon.dmg)。Intel 版尚未构建。验证范围见 [发布说明](https://github.com/newwying/localtype-downloads/releases/tag/v0.3.19)。
 
 ## 新手指南
 
