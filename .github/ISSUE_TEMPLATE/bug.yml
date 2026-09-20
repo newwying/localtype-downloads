@@ -1,0 +1,34 @@
+name: 报告问题
+description: 告诉我们哪里没有正常工作
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "这里的内容会公开。请勿填写密码、账号凭据、私人提示词或原始日志。"
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本
+      description: 在帮助与反馈页查看
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: 系统与电脑类型
+      placeholder: 例如 Windows 11，或 macOS 15 / Apple M 系列
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 遇到了什么问题
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 如何再次遇到这个问题
+      description: 按顺序写下点击或操作步骤，以及你期待的结果
+    validations:
+      required: true
