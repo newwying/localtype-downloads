@@ -164,15 +164,6 @@ codex login
 检查登录
 codex login status
 
-第 17 步　把 AI 工具的位置告诉 Localtype
-只运行所选路线的查询命令，复制输出的文件路径，下一步粘贴到 Localtype；不要复制查询命令本身。
-完成后：得到以 / 或 C: 等开头的文件路径。
-选 A 的运行这一条
-command -v agy
-
-选 B 的运行这一条
-command -v codex
-
 第 19 步　选中一段你想优化的话
 把下面的文字粘贴到空白文本文档，再用鼠标选中整段。Mac 的 Sublime 也必须主动选中文字。
 完成后：整段文字出现选中底色。
