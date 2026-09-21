@@ -1,4 +1,4 @@
-﻿Localtype 0.3.18 · macOS-AppleSilicon · 文档核验 2026-09-15
+﻿Localtype 0.3.20 · macOS-AppleSilicon · 文档核验 2026-09-20
 只做自己选的路线，每次复制一条，粘贴后按回车。
 
 优化前 · 草稿
@@ -125,8 +125,8 @@ MVP 范围与待确认规则
 为每个里程碑给出可观察结果、失败时的补救练习，以及继续下一阶段的条件。若八周目标过满，优先保留二维机械臂完整闭环，空间机械臂扩展列为进阶项。
 资源优先使用公开教材、课程讲义和官方文档，核实链接与对应章节；无法核实时明确标注，不编造链接。最后列出需要我补充的课程大纲、作业要求和数学基础信息。
 
-先粘贴，再空格并拖入助手文件
-/bin/bash
+一键复制：粘贴到终端后按回车
+/usr/bin/xattr -dr com.apple.quarantine "/Applications/Localtype.app" && /usr/bin/open "/Applications/Localtype.app"
 
 第 11 步　A 路线：安装 Antigravity
 运行下面的命令，安装完成后关闭并重开终端。
