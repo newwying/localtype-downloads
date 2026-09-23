@@ -6,7 +6,7 @@
 
 安装包和离线指南在 [Releases](https://github.com/newwying/localtype-downloads/releases)。请按电脑类型选择 Windows x64、Mac Apple Silicon（M 系列芯片）或 Mac Intel。
 
-**0.3.22 Windows 测试版已发布。** [直接下载 Windows 安装器](https://github.com/newwying/localtype-downloads/releases/download/v0.3.22/Localtype-0.3.22-Windows-x64-Setup.exe)，双击安装，无需解压。[安装包与离线指南 ZIP](https://github.com/newwying/localtype-downloads/releases/download/v0.3.22/Localtype-0.3.22-Windows-x64-with-guide.zip)。Mac Apple Silicon（M 系列）0.3.22 已发布：[完整测试包（安装器＋指南＋启动助手）](https://github.com/newwying/localtype-downloads/releases/download/v0.3.22/Localtype-0.3.22-macOS-AppleSilicon-with-guide.zip) · [仅 DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.3.22/Localtype-0.3.22-macOS-AppleSilicon.dmg)。Intel 版尚未构建。验证范围见 [发布说明](https://github.com/newwying/localtype-downloads/releases/tag/v0.3.22)。
+**0.4.6 测试版已发布。** [下载 Windows 安装器](https://github.com/newwying/localtype-downloads/releases/download/v0.4.6/Localtype-0.4.6-Windows-x64-Setup.exe) · [Windows 安装器与离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.4.6/Localtype-0.4.6-Windows-x64-with-guide.zip) · [Mac M 系列完整测试包](https://github.com/newwying/localtype-downloads/releases/download/v0.4.6/Localtype-0.4.6-macOS-AppleSilicon-with-guide.zip) · [仅 Mac DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.4.6/Localtype-0.4.6-macOS-AppleSilicon.dmg)。Intel 版尚未构建。[更新内容与验收范围](https://github.com/newwying/localtype-downloads/releases/tag/v0.4.6)。
 
 ## 新手指南
 
