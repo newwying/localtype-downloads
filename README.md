@@ -1,25 +1,40 @@
-# Localtype 下载与上手指南
+# Localtype 下载与安装帮助
 
-选中文字，一键把草稿整理成更清楚的提示词。支持 Windows 和 Mac，通过你自己的 Antigravity 或 Codex CLI 账号使用 AI。
+把口语草稿和零散想法整理成清楚的 AI 提示词。选中文字，即可优化、预览并复制或替换结果；也可按计划或目标任务整理需求。
 
-## 下载
+## 下载 0.4.7 测试版
 
-安装包和离线指南在 [Releases](https://github.com/newwying/localtype-downloads/releases)。请按电脑类型选择 Windows x64、Mac Apple Silicon（M 系列芯片）或 Mac Intel。
+| 你的电脑 | 下载 |
+|---|---|
+| Windows x64 | [下载安装器](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/Localtype-0.4.7-Windows-x64-Setup.exe) |
+| Mac M 系列 | [下载安装包与安装必看](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/Localtype-0.4.7-macOS-AppleSilicon-with-guide.zip) |
 
-**0.4.6 测试版已发布。** [下载 Windows 安装器](https://github.com/newwying/localtype-downloads/releases/download/v0.4.6/Localtype-0.4.6-Windows-x64-Setup.exe) · [Windows 安装器与离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.4.6/Localtype-0.4.6-Windows-x64-with-guide.zip) · [Mac M 系列完整测试包](https://github.com/newwying/localtype-downloads/releases/download/v0.4.6/Localtype-0.4.6-macOS-AppleSilicon-with-guide.zip) · [仅 Mac DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.4.6/Localtype-0.4.6-macOS-AppleSilicon.dmg)。Intel 版尚未构建。[更新内容与验收范围](https://github.com/newwying/localtype-downloads/releases/tag/v0.4.6)。
+Mac Intel 本轮暂未提供。
 
-## 新手指南
+**Mac 安装前先阅读 [安装必看](https://newwying.github.io/localtype-downloads/guides/mac-arm/安装必看.html)。遇到系统拦截时，先点“完成”或“取消”，不要点“移到废纸篓”。**
 
-[在线上手指南](https://newwying.github.io/localtype-downloads/) · [全部发布记录](https://github.com/newwying/localtype-downloads/releases)
+<details><summary>其他下载格式</summary>
 
-目前为未签名测试版。Mac 打开时遇到系统拦截，请直接看指南中对应提示下面的处理步骤。
+- [Windows 安装器与离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/Localtype-0.4.7-Windows-x64-exe-测试包.zip)
+- [仅 Mac DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/Localtype-0.4.7-macOS-AppleSilicon.dmg)
+- [文件校验清单](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/SHA256SUMS.txt)
+
+</details>
+
+## 开始使用
+
+打开软件后跟随内置引导，连接自己的 AI 工具账号，再选中文字试一次优化。
+
+[Windows 安装帮助](https://newwying.github.io/localtype-downloads/guides/windows/先看这里.html) · [更新说明](https://github.com/newwying/localtype-downloads/releases/tag/v0.4.7)
+
+当前为测试版。Mac 未进行 Apple Developer 签名和公证，首次打开可能受到系统拦截。Mac 实机权限、覆盖安装与输入交互，以及 Windows 最终安装包人工回归尚未完成。
 
 ## 问题与建议
 
-[提交 Bug](https://github.com/newwying/localtype-downloads/issues/new?template=bug.yml) · [提交功能建议](https://github.com/newwying/localtype-downloads/issues/new?template=feature.yml)
+[提交问题](https://github.com/newwying/localtype-downloads/issues/new?template=bug.yml) · [提交建议](https://github.com/newwying/localtype-downloads/issues/new?template=feature.yml)
 
-提交需要登录 GitHub，Issue 内容会公开。请只写问题和复现步骤，不上传账号信息、私人提示词或未经检查的日志。
+需要登录 GitHub，提交内容会公开。请勿附带账号凭据、私人提示词或未经检查的日志。
 
-邮箱：wuyu_29@qq.com（可复制后自行发送邮件）。
+联系邮箱：wuyu_29@qq.com（复制后自行发送）。
 
-本仓库只用于分发、指南和反馈，不包含软件源码。软件及文档版权归其权利人所有，公开下载不代表授予源码或再分发许可。
+本仓库用于软件分发、安装帮助与反馈，不包含软件源码。软件及文档版权归其权利人所有，公开下载不代表授予源码或再分发许可。
