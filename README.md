@@ -15,7 +15,7 @@ Mac Intel 本轮暂未提供。
 
 <details><summary>其他下载格式</summary>
 
-- [Windows 安装器与离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/Localtype-0.4.7-Windows-x64-exe-测试包.zip)
+- [Windows 安装器与离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/Localtype-0.4.7-Windows-x64-with-guide.zip)
 - [仅 Mac DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/Localtype-0.4.7-macOS-AppleSilicon.dmg)
 - [文件校验清单](https://github.com/newwying/localtype-downloads/releases/download/v0.4.7/SHA256SUMS.txt)
 
