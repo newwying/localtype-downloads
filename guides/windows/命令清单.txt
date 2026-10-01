@@ -1,4 +1,4 @@
-﻿Localtype 0.4.11 · Windows-x64 · 文档核验 2026-09-20
+﻿Localtype 0.4.12 · Windows-x64 · 文档核验 2026-09-30
 只做自己选的路线，每次复制一条，粘贴后按回车。
 
 优化前 · 草稿
@@ -126,8 +126,8 @@ MVP 范围与待确认规则
 资源优先使用公开教材、课程讲义和官方文档，核实链接与对应章节；无法核实时明确标注，不编造链接。最后列出需要我补充的课程大纲、作业要求和数学基础信息。
 
 第 7 步　A 路线：安装 Antigravity
-运行下面的命令，安装完成后关闭并重开终端。
-完成后：安装结束，可继续检查版本。
+按旁边的 Google Antigravity CLI 官方安装指南操作。Windows 安装结束后，从开始菜单新开 PowerShell；若 agy 仍找不到，可用官方默认完整路径检查或填写实际 CLI 路径，不要假设 CMD 会读取 PowerShell profile 中的 PATH。
+完成后：PowerShell 可运行 agy --version，或用实际完整路径验证。
 Windows 命令
 irm https://antigravity.google/cli/install.ps1 | iex
 
@@ -144,8 +144,8 @@ agy --version
 agy
 
 第 10 步　B 路线：安装 Codex（选了 A 就跳过）
-把下面的命令粘贴到终端并回车，安装完成后关闭并重开终端。
-完成后：安装结束，没有失败提示。
+按旁边的 OpenAI Codex CLI 官方安装指南操作。Windows 安装结束后，从开始菜单新开 PowerShell；若 codex 仍找不到，用 (Get-Command codex -ErrorAction Stop).Source 查询本机完整路径并填写，不要假设 CMD 会读取 PowerShell profile 中的 PATH。
+完成后：PowerShell 可运行 codex --version，或用实际完整路径验证。
 Windows 命令
 powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
 
