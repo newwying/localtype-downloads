@@ -2,22 +2,22 @@
 
 把口语草稿和零散想法整理成清楚的 AI 提示词。选中文字，即可优化、预览并复制或替换结果；也可按计划或目标任务整理需求。
 
-## 下载测试版（Windows 0.4.13 / Mac M 系列 0.4.12）
+## 下载测试版 0.4.13（Windows x64 / Mac M 系列）
 
 | 你的电脑 | 下载 |
 |---|---|
 | Windows x64 | [下载安装器](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/Localtype-0.4.13-Windows-x64-Setup.exe) |
-| Mac M 系列 | [下载安装包与安装必看](https://github.com/newwying/localtype-downloads/releases/download/v0.4.12/Localtype-0.4.12-macOS-AppleSilicon-with-guide.zip) |
+| Mac M 系列 | [下载安装包与安装必看](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/Localtype-0.4.13-macOS-AppleSilicon-with-guide.zip) |
 
-Windows x64 现提供 0.4.13；Mac M 系列 0.4.13 正在验收，当前可下载 0.4.12。Mac Intel 本轮暂未提供，旧版仍可从历史发布下载。
+Windows x64 与 Mac M 系列现提供 0.4.13。Mac Intel 本轮暂未提供，旧版仍可从历史发布下载。
 
 **Mac 安装前先阅读 [安装必看](https://newwying.github.io/localtype-downloads/guides/mac-arm/安装必看.html)。遇到系统拦截时，先点“完成”或“取消”，不要点“移到废纸篓”。**
 
 <details><summary>其他下载格式</summary>
 
 - [Windows 安装器与离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/Localtype-0.4.13-Windows-x64-with-guide.zip)
-- [Windows 0.4.13 文件校验清单](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/SHA256SUMS.txt)
-- [仅 Mac DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.4.12/Localtype-0.4.12-macOS-AppleSilicon.dmg)
+- [Windows 与 Mac 0.4.13 文件校验清单](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/SHA256SUMS.txt)
+- [仅 Mac DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/Localtype-0.4.13-macOS-AppleSilicon.dmg)
 
 </details>
 
@@ -31,7 +31,7 @@ Windows 0.4.13：中文安装向导；明确区分 Codex 未登录、状态未�
 
 [Windows 安装帮助](https://newwying.github.io/localtype-downloads/guides/windows/先看这里.html) · [更新说明](https://github.com/newwying/localtype-downloads/releases/tag/v0.4.13)
 
-当前为测试版。Windows 未进行发布者代码签名，首次下载或运行可能被系统拦截；先核实来源与文件校验，再按安装帮助处理。Windows 中文安装和覆盖升级已在隔离 Windows 11 实测；另一台 Windows 的真实账号慢请求仍需现场复测。Mac 0.4.12 采用 ad-hoc 签名，未进行 Apple Developer 签名和公证，首次打开可能被系统拦截。当前版本已在 Mac M 系列核验 Codex／AGY 调用、TextEdit 复制／替换／撤销及快捷键；其他输入应用和 macOS 版本尚未逐一验证。首次使用或更新后，请按应用内提示检查辅助功能权限。
+当前为测试版。Windows 未进行发布者代码签名，首次下载或运行可能被系统拦截；先核实来源与文件校验，再按安装帮助处理。Windows 中文安装和覆盖升级已在隔离 Windows 11 实测；另一台 Windows 的真实账号慢请求仍需现场复测。Mac 0.4.13 采用 ad-hoc 签名，未进行 Apple Developer 签名和公证，首次打开可能被系统拦截。当前版本已在 Mac M 系列核验 Codex／AGY 调用、TextEdit 复制／替换／撤销及快捷键；其他输入应用和 macOS 版本尚未逐一验证。首次使用或更新后，请按应用内提示检查辅助功能权限。
 
 ## 问题与建议
 
