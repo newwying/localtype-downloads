@@ -1,4 +1,4 @@
-﻿Localtype 0.4.12 · Windows-x64 · 文档核验 2026-09-30
+﻿Localtype 0.4.13 · Windows-x64 · 文档核验 2026-09-30
 只做自己选的路线，每次复制一条，粘贴后按回车。
 
 优化前 · 草稿
@@ -156,8 +156,8 @@ powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1
 codex --version
 
 第 12 步　B 路线：登录 ChatGPT 账号
-先运行“开始登录”，在浏览器登录 ChatGPT 账号；回来后运行“检查登录”。
-完成后：显示已登录。
+先运行“开始登录”，在浏览器登录 ChatGPT 账号；回来后运行“检查登录”。明确显示“未登录”时再登录；“状态未知”需查看检查提示，不能当作已登录。
+完成后：显示已登录；这只确认账号状态，模型权限和网络仍需一次优化验证。
 开始登录
 codex login
 
