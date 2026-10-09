@@ -1,4 +1,4 @@
-﻿Localtype 0.4.14 · Windows-x64
+﻿Localtype 0.4.15 · Windows-x64
 Run only the commands for your chosen CLI. Copy one command at a time.
 
 Run only if you chose AGY and it is not installed
