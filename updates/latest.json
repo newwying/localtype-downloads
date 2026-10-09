@@ -1,0 +1,15 @@
+{
+  "version": "0.4.16",
+  "notes": "- 新增应用内更新：每天最多自动检查一次（可在“帮助与反馈 → 软件更新”关闭），确认后自动下载、校验签名、安装并重启，配置与历史保留。\n- Mac：改用固定证书签名，此后升级保留辅助功能权限；权限失效时提供“一键重新授权”。\n- 设置保存期间暂时禁用“界面大小”；诊断报告补充 AGY 失败说明。",
+  "pub_date": "2026-10-09T12:22:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.4.16/Localtype-0.4.16-Windows-x64-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU3Y3UXZ3ekVWNkU1bjkwb2NGMWljVUlKV05QM0FjbE5DS292SStqQm5GdmF1UVNBR0drNm04Z0tFYmJDZXN6ZHU3WmpheGdaYkFacEE2QmZhbm55MkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQzMzk5CWZpbGU6TG9jYWx0eXBlLTAuNC4xNi1XaW5kb3dzLXg2NC1TZXR1cC5leGUKMjNVYnBwRzg2MUViR1Z0em1FUzBNamwxMmdTVzkxelNiQko3NS9RRm85UDVLVFFjdTVjUC9CazRSR2E0OHh0QnN4cmpPMmV2T2V5REVjaTRFUkxSQmc9PQo="
+    },
+    "darwin-aarch64": {
+      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.4.16/Localtype-0.4.16-macOS-AppleSilicon.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU2dEb3FZWVZqaFJVWVI2ampLaXJuR0dybzMwdjFYOU9JNHorUFVTNWJieHdzdEg3a3BvRlVyZm5yQzZVTjRja0lYYlJMMGRoS0tsTFpZNVc2L2J5YkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ4NTIwCWZpbGU6TG9jYWx0eXBlLTAuNC4xNi1tYWNPUy1BcHBsZVNpbGljb24uYXBwLnRhci5negp6cVA0Tm5iSzBkN3dpUEpOUTl1aGJFeHJrWUkyMU81R1hyOFdhcUFkeGZxVEluVitycTBaNjdWRFJTWWpuVnozdnN4SlZQZlB2cW9udEVUcnZJRnlBZz09Cg=="
+    }
+  }
+}

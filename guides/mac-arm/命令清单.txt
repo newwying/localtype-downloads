@@ -1,2 +1,2 @@
-﻿Localtype 0.4.15：仅在本项目测试包遇到隔离拦截时使用
+﻿Localtype 0.4.16：仅在本项目测试包遇到隔离拦截时使用
 /usr/bin/xattr -dr com.apple.quarantine "/Applications/Localtype.app" && /usr/bin/open "/Applications/Localtype.app"
