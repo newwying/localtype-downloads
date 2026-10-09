@@ -1,0 +1,35 @@
+﻿Localtype 0.4.15 · macOS-AppleSilicon
+Run only the commands for your chosen CLI. Copy one command at a time.
+
+Copy, paste in Terminal with Command+V, then press Return
+/usr/bin/xattr -dr com.apple.quarantine "/Applications/Localtype.app" && /usr/bin/open "/Applications/Localtype.app"
+
+Run only if you chose AGY and it is not installed
+curl -fsSL https://antigravity.google/cli/install.sh | bash
+
+Run in a newly opened terminal
+agy --version
+
+Start AGY and follow its sign-in prompts
+agy
+
+Run only if you chose Codex and it is not installed
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+
+Run in a newly opened terminal
+codex --version
+
+Start sign-in
+codex login
+
+Check sign-in
+codex login status
+
+Practice text
+Research a shared task app for two people to manage groceries, chores and travel preparation. Compare phone and desktop support, explain the limits of the free plans, and recommend an option with links to original sources.
+
+Example: replace this path first
+Use [My Skill](/Users/your-name/.codex/skills/my-skill/SKILL.md) as context to improve this request: ...
+
+Support email
+wuyu_29@qq.com

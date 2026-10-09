@@ -2,14 +2,14 @@
 
 把口语草稿和零散想法整理成清楚的 AI 提示词。选中文字，即可优化、预览并复制或替换结果；也可按计划或目标任务整理需求。
 
-## 下载测试版（Windows 0.4.15 / Mac M 系列 0.4.13）
+## 下载测试版（Windows 0.4.15 / Mac M 系列 0.4.15）
 
 | 你的电脑 | 下载 |
 |---|---|
 | Windows x64 | [下载安装器](https://github.com/newwying/localtype-downloads/releases/download/v0.4.15/Localtype-0.4.15-Windows-x64-Setup.exe) |
-| Mac M 系列 | [下载安装包与安装必看](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/Localtype-0.4.13-macOS-AppleSilicon-with-guide.zip) |
+| Mac M 系列 | [下载安装包与安装必看](https://github.com/newwying/localtype-downloads/releases/download/v0.4.15/Localtype-0.4.15-macOS-AppleSilicon-with-guide.zip) |
 
-Windows x64 现提供 0.4.15；Mac M 系列 0.4.14 正在验收，当前可下载 0.4.13。Mac Intel 本轮暂未提供，旧版仍可从历史发布下载。
+Windows x64 与 Mac M 系列现提供 0.4.15。Mac M 系列 0.4.15：与 Windows 0.4.15 相同的修复——内置安装与 AI CLI 调用自动使用 macOS 系统代理，修复从启动台或访达打开时等待到超时；“测试当前模型”更准确；结果框内可再次优化；新增诊断报告。Mac Intel 本轮暂未提供，旧版仍可从历史发布下载。
 
 **Mac 安装前先阅读 [安装必看](https://newwying.github.io/localtype-downloads/guides/mac-arm/安装必看.html)。遇到系统拦截时，先点“完成”或“取消”，不要点“移到废纸篓”。**
 
@@ -17,8 +17,8 @@ Windows x64 现提供 0.4.15；Mac M 系列 0.4.14 正在验收，当前可下�
 
 - [Windows 安装器与离线指南](https://github.com/newwying/localtype-downloads/releases/download/v0.4.15/Localtype-0.4.15-Windows-x64-with-guide.zip)
 - [Windows 0.4.15 文件校验清单](https://github.com/newwying/localtype-downloads/releases/download/v0.4.15/SHA256SUMS.txt)
-- [Mac 0.4.13 文件校验清单](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/SHA256SUMS.txt)
-- [仅 Mac DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.4.13/Localtype-0.4.13-macOS-AppleSilicon.dmg)
+- [Mac 0.4.15 文件校验清单](https://github.com/newwying/localtype-downloads/releases/download/v0.4.15/SHA256SUMS-macOS-AppleSilicon.txt)
+- [仅 Mac DMG](https://github.com/newwying/localtype-downloads/releases/download/v0.4.15/Localtype-0.4.15-macOS-AppleSilicon.dmg)
 
 </details>
 
@@ -30,9 +30,9 @@ Windows 0.4.15：内置安装 AI CLI 会自动使用系统代理（如代理软�
 
 0.4.11 已支持旧内置模型预设精简与恢复；自建或改过的配置保留。在模型页可“恢复升级前预设”。
 
-[Windows English guide](https://newwying.github.io/localtype-downloads/guides/windows/Start%20here.html) · [Windows 安装帮助](https://newwying.github.io/localtype-downloads/guides/windows/先看这里.html) · [更新说明](https://github.com/newwying/localtype-downloads/releases/tag/v0.4.15)
+[Windows English guide](https://newwying.github.io/localtype-downloads/guides/windows/Start%20here.html) · [Mac English guide](https://newwying.github.io/localtype-downloads/guides/mac-arm/Start%20here.html) · [Windows 安装帮助](https://newwying.github.io/localtype-downloads/guides/windows/先看这里.html) · [更新说明](https://github.com/newwying/localtype-downloads/releases/tag/v0.4.15)
 
-当前为测试版。Windows 未进行发布者代码签名，首次下载或运行可能被系统拦截；先核实来源与文件校验，再按安装帮助处理。Windows 0.4.15 已在隔离 Windows 11 实测仅系统代理可用网络下的内置 CLI 安装及覆盖升级配置保留；另一台 Windows 的真实账号慢请求仍需现场复测。Mac 0.4.13 采用 ad-hoc 签名，未进行 Apple Developer 签名和公证，首次打开可能被系统拦截。当前版本已在 Mac M 系列核验 Codex／AGY 调用、TextEdit 复制／替换／撤销及快捷键；其他输入应用和 macOS 版本尚未逐一验证。首次使用或更新后，请按应用内提示检查辅助功能权限。
+当前为测试版。Windows 未进行发布者代码签名，首次下载或运行可能被系统拦截；先核实来源与文件校验，再按安装帮助处理。Windows 0.4.15 已在隔离 Windows 11 实测仅系统代理可用网络下的内置 CLI 安装及覆盖升级配置保留；另一台 Windows 的真实账号慢请求仍需现场复测。Mac 0.4.15 采用 ad-hoc 签名，未进行 Apple Developer 签名和公证，首次打开可能被系统拦截。Mac 0.4.15 已在 Mac M 系列实测从 0.4.13 覆盖升级保留配置、仅系统代理时内置安装 AGY，并核验 Codex／AGY 调用、TextEdit 复制／替换／撤销及快捷键；其他输入应用和 macOS 版本尚未逐一验证。首次使用或更新后，请按应用内提示检查辅助功能权限。
 
 ## 问题与建议
 
