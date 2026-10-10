@@ -1,15 +1,15 @@
 {
-  "version": "0.4.16",
-  "notes": "- 新增应用内更新：每天最多自动检查一次（可在“帮助与反馈 → 软件更新”关闭），确认后自动下载、校验签名、安装并重启，配置与历史保留。\n- Mac：改用固定证书签名，此后升级保留辅助功能权限；权限失效时提供“一键重新授权”。\n- 设置保存期间暂时禁用“界面大小”；诊断报告补充 AGY 失败说明。",
-  "pub_date": "2026-10-09T12:22:00Z",
+  "version": "0.4.17",
+  "notes": "- 设置页焕新：按钮与卡片风格统一，“AI 连接”分步完成，“通用设置”集中界面语言、快捷键与结果显示方式，“帮助与反馈”合并为入门、更新与问题反馈；标题栏改为深色。\n- 操作失败时自动生成诊断报告，在失败说明处直接预览，复制即可反馈（不自动上传）。\n- 悬浮窗：新版本提示移到标题栏，窗口拉高时内容居中，设置窗口在前台时暂不置顶以免遮挡。\n- Windows 首次安装时选择的语言会作为软件的初始界面语言。\n- 提示词模板支持 Alt+↑/↓ 排序，窄窗口改为“列表 → 编辑”；首次上手引导精简为 7 步（Mac 8 步）。",
+  "pub_date": "2026-10-10T06:54:18Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.4.16/Localtype-0.4.16-Windows-x64-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU3Y3UXZ3ekVWNkU1bjkwb2NGMWljVUlKV05QM0FjbE5DS292SStqQm5GdmF1UVNBR0drNm04Z0tFYmJDZXN6ZHU3WmpheGdaYkFacEE2QmZhbm55MkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQzMzk5CWZpbGU6TG9jYWx0eXBlLTAuNC4xNi1XaW5kb3dzLXg2NC1TZXR1cC5leGUKMjNVYnBwRzg2MUViR1Z0em1FUzBNamwxMmdTVzkxelNiQko3NS9RRm85UDVLVFFjdTVjUC9CazRSR2E0OHh0QnN4cmpPMmV2T2V5REVjaTRFUkxSQmc9PQo="
+      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.4.17/Localtype-0.4.17-Windows-x64-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU24rZlZRZnAyc1JsZkIxMnpHaERZSUJvTWh3ekphSU8wQWplemp4di81dHBySkwxaUFacldGMmk3a3d0OHpOclRNUWZmblcxUnVGT2pBdHNDQ1FLSndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjE1MDk2CWZpbGU6TG9jYWx0eXBlLTAuNC4xNy1XaW5kb3dzLXg2NC1TZXR1cC5leGUKQjVWc1g4M2ViS01BWXRKTUpoM1V2R29NQVRWbGJYdHZLZGtSYXRvY1NoeEp1ZFpKWHRCenhncC9zUVhrazYwckZYYSt6QjdHczJnbUhKYXh3cXBFQkE9PQo="
     },
     "darwin-aarch64": {
-      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.4.16/Localtype-0.4.16-macOS-AppleSilicon.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU2dEb3FZWVZqaFJVWVI2ampLaXJuR0dybzMwdjFYOU9JNHorUFVTNWJieHdzdEg3a3BvRlVyZm5yQzZVTjRja0lYYlJMMGRoS0tsTFpZNVc2L2J5YkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTQ4NTIwCWZpbGU6TG9jYWx0eXBlLTAuNC4xNi1tYWNPUy1BcHBsZVNpbGljb24uYXBwLnRhci5negp6cVA0Tm5iSzBkN3dpUEpOUTl1aGJFeHJrWUkyMU81R1hyOFdhcUFkeGZxVEluVitycTBaNjdWRFJTWWpuVnozdnN4SlZQZlB2cW9udEVUcnZJRnlBZz09Cg=="
+      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.4.17/Localtype-0.4.17-macOS-AppleSilicon.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU3JGNU9xS2xJRzE2eTcrZmV1Nno2WVdXblNnQlZ4S1NtZ2lmV3R1M0dBaW9paGFMdGdGUGkyUDJzK1FRWisrVmJEVk1OQUw1MUNKVys2Sis3b0xuaVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjE1MTY5CWZpbGU6TG9jYWx0eXBlLTAuNC4xNy1tYWNPUy1BcHBsZVNpbGljb24uYXBwLnRhci5negozTHY1QUJnSzFTNWtYK3l4RmhGM2hVQUdtL3BXTHVhbWliNnZSU2Zub3hHQkVvK0s5N2thcm00UXYxZEdseENGYkZad3pnRUVDOURWcXZFbnJwQVJDQT09Cg=="
     }
   }
 }

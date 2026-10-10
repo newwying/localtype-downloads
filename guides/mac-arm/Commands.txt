@@ -1,4 +1,4 @@
-﻿Localtype 0.4.16 · macOS-AppleSilicon
+﻿Localtype 0.4.17 · macOS-AppleSilicon
 Run only the commands for your chosen CLI. Copy one command at a time.
 
 Copy, paste in Terminal with Command+V, then press Return
