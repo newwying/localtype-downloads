@@ -1,4 +1,4 @@
-﻿Localtype 0.4.17 · Windows-x64
+﻿Localtype 0.5.0 · Windows-x64
 
 English: open Start here.html
 中文：打开 先看这里.html
