@@ -1,4 +1,4 @@
-﻿Localtype 0.5.0 · Windows-x64 · 文档核验 2026-09-30
+﻿Localtype 0.5.1 · Windows-x64 · 文档核验 2026-09-30
 只做自己选的路线，每次复制一条，粘贴后按回车。
 
 优化前 · 草稿
@@ -164,16 +164,49 @@ codex login
 检查登录
 codex login status
 
-第 16 步　选中一段你想优化的话
+第 15 步　其他 CLI（实验性）：Qwen Code、Kimi Code
+这两个工具按官方文档适配，尚未实测；只支持“查找已安装的 AI CLI + 登录账号 + 检查登录”，软件不提供一键安装，请按下面的官方命令自行安装。Qwen Code：点“登录账号”会打开 qwen，在其中输入 /auth；Qwen OAuth 免费额度已于 2026-04-15 停止，需要 Coding Plan 或 API Key。Kimi Code：“登录账号”会运行 kimi login；Windows 需先安装 Git for Windows；Kimi 只能通过命令行参数接收提示词，草稿过长时会失败。
+完成后：能在“查找已安装的 AI CLI”中找到工具并完成登录检查；是否能优化需实际试一次。
+Qwen Code 安装命令（Windows）
+irm https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen-standalone.ps1 | iex
+
+Qwen Code 另一种安装方式（需 Node 22 或更高）
+npm i -g @qwen-code/qwen-code@latest
+
+Kimi Code 安装命令（Windows）
+irm https://code.kimi.com/kimi-code/install.ps1 | iex
+
+第 16 步　D 路线：手动安装 Claude Code
+只在软件内安装失败时使用。装好后程序位于 Windows 的 %USERPROFILE%\.local\bin\claude.exe、Mac 的 ~/.local/bin/claude；Localtype 找不到时，把该路径填入“AI CLI 位置”。安装后新开终端检查版本，低于 2.1.259 请运行 claude update，再回 Localtype 登录。
+完成后：显示 Claude Code 版本号，且登录检查显示已登录。
+Windows 命令
+irm https://claude.ai/install.ps1 | iex
+
+检查是否安装成功
+claude --version
+
+开始登录
+claude auth login
+
+检查登录
+claude auth status
+
+升级旧版
+claude update
+
+第 19 步　选中一段你想优化的话
 把下面的文字粘贴到空白文本文档，再用鼠标选中整段。Mac 的 Sublime 也必须主动选中文字。
 完成后：整段文字出现选中底色。
 可以直接拿来试的内容
 帮我在网上深入研究一下适合两个人一起用的待办工具，平时主要记购物清单、安排家务和旅行准备。最好手机和电脑都能用，先看免费版够不够，最后告诉我怎么选，给我原文链接。
 
 Skill 协同优化：有需要再看
-Skill 是已有的做事说明文件。选“Skill 协同优化”，按下面格式引用文件，再写需求；文件路径换成你自己的。
-完成后：优化时参考文件说明，不直接执行其中的任务。
-可选示例：先替换文件位置
+Skill 是已有的做事说明文件。选“Skill 协同优化”，在草稿里写 $skill-name（例如 $my-skill）、SKILL.md 的完整路径（Windows 如 C:\…\SKILL.md，Mac 如 /Users/…/SKILL.md 或 ~/.claude/skills/…/SKILL.md），或指向 SKILL.md 的 Markdown 链接，再写需求。只写名称时依次搜索：~/.codex/skills、~/.agents/skills、~/.claude/skills、~/.gemini/skills、~/.qwen/skills、~/.kimi/skills、Antigravity 内置 Skill、Claude 插件缓存与 Codex 插件缓存；同名时靠前的优先；用目录联接或符号链接安装的 Skill 也能读取。一次最多 3 个 Skill，正文合计不超过约 9.6 万字符。Skill 只作只读上下文加载，Localtype 不会执行它。使用 API 连接时，Skill 正文会随请求发送给所选厂商并计入用量；用本机 Ollama 时注意上下文长度（OLLAMA_CONTEXT_LENGTH），过短会截断。
+完成后：优化时参考 Skill 说明，不直接执行其中的任务。
+可选示例一：按名称引用
+请参考 $my-skill，优化以下需求：……
+
+可选示例二：先替换文件位置
 请参考 [我的 Skill](C:/Users/你的用户名/.codex/skills/my-skill/SKILL.md)，优化以下需求：……
 
 遇到问题，直接发给我

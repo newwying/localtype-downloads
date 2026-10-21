@@ -1,15 +1,15 @@
 {
-  "version": "0.5.0",
-  "notes": "- 新增“API 密钥”连接方式：在“AI 连接”新建配置时选“连接方式 → API 密钥”，无需安装 CLI。内置 OpenAI、Gemini、Claude、DeepSeek、通义千问、Kimi、OpenRouter、硅基流动预设，也可填自定义 OpenAI 兼容地址（含本机 Ollama）。\n- 密钥只保存在本机，不写入日志、历史或诊断报告；调用费用由厂商按用量收取。\n- 每个配置可单独选择网络：跟随系统代理（默认）、直连或指定代理。\n- 失败原因更细：区分密钥无效、地区不支持、余额不足、限流、服务繁忙、模型不存在、网络与证书错误。\n- 首次引导按连接方式分支；使用 API 配置时悬浮窗显示“等待 AI 返回”。",
-  "pub_date": "2026-10-12T05:57:29Z",
+  "version": "0.5.1",
+  "notes": "- 新增 Claude Code 连接方式：在“AI 连接”新建配置选“Claude Code”，可在软件内一键安装、登录并检查状态；Localtype 以只读、禁用全部工具的方式调用，不读写你的文件。\n- 新增 Qwen Code、Kimi Code 连接方式（实验性，按官方文档适配，尚未实测）。\n- 修复“Skill 协同优化”找不到 Skill 的问题；支持 Claude、Gemini、Qwen、Kimi、Antigravity 的 Skill 目录和用链接安装的 Skill，识别 Mac 路径。\n- 指定代理的说明更正为“仅支持 HTTP 代理（http://主机:端口）”。",
+  "pub_date": "2026-10-21T04:54:54Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.5.0/Localtype-0.5.0-Windows-x64-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU21iNXpJT2VsNXRQUDlqWnZUdHREa1RoSDZKNDVUZ2hPZHpNRjRyK29wTmZZMnN1QklJRkw4Y2UxNkYrK2lLSE05aTZWaXkvc0VjMlV3Q1NueU0yZlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjg5MzQ3CWZpbGU6TG9jYWx0eXBlLTAuNS4wLVdpbmRvd3MteDY0LVNldHVwLmV4ZQoxbmUrV3RjdHVoR0ZEMHpvcXJCMUpTdHkwOW02bHlObDlGUHJEY3ZRSnVWVGZ5UWhiM1FPTkNFNXNTd0R4VnZPU3V4bjBMSjhwTXdPTi9ZUmJyTnlBZz09Cg=="
+      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.5.1/Localtype-0.5.1-Windows-x64-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU3NhQ1FIUnRVdm14OGttR2phSUdoNm05LzZBanU2V042RW5sUWhpdStWSDZxSTM3ejFwdHVhdWNxU1p1RkM0VkROTXZRWGRiYUNXcmthdFlGT1U3SmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQ0OTEwCWZpbGU6TG9jYWx0eXBlLTAuNS4xLVdpbmRvd3MteDY0LVNldHVwLmV4ZQpVdm03Ky9obGdWNERqS2VYWkNrVXh0NWF1am5yVG5wNjVhQ2IzZXVBSVFuRlAzZHE4YUNRZ0NXRTlad3ZmVi9acWNGL2ZpZHNXaHRleUZ0alg3eFpEZz09Cg=="
     },
     "darwin-aarch64": {
-      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.5.0/Localtype-0.5.0-macOS-AppleSilicon.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU3I0NUl5UXVuNGl0M3I1WFJRYk91Tk1EclNqTHVJbGoycFh6SE1EN2oyQW9aUnlMWEMzMEs5NWZJNnJrS3l2QVZ4MGNoZnUzUjJvY1lWeXZqKzZsVlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzg0NjUwCWZpbGU6TG9jYWx0eXBlLTAuNS4wLW1hY09TLUFwcGxlU2lsaWNvbi5hcHAudGFyLmd6Cml3bURIYnFrZFh2RFcweEZZdWo0RVJVZjdBVVVqQTlvRVNiRG1JeUpUSFlDRzNoZ3A2OENmUlBMNmRUMmlmSXV6eUNjVzcwN2NMM29FQnkyS0JrYkJnPT0K"
+      "url": "https://github.com/newwying/localtype-downloads/releases/download/v0.5.1/Localtype-0.5.1-macOS-AppleSilicon.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK3dGWG0vTEdNU3JHcmxLbThqeHB4aERMZU0wdUlTRTdRRXliZFdBQnl2K2FFYUVrZ1ltL2tSL1NLM0JrSzgyaW1aN29USXBGQnUyYjB1TE01ai9ORXh2emUwa1R0UXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTU4NDk1CWZpbGU6TG9jYWx0eXBlLTAuNS4xLW1hY09TLUFwcGxlU2lsaWNvbi5hcHAudGFyLmd6Ckc2aHUvVVpPM3IxZkROOVF0VzJRZ2hHM2MzMEFmM2U0NW9VYXJ5NzcvSXptSnlVOVZZUUJNY1FqZlpRL1hxNzBQWGNxb1NHRWt4Tk51QnRFTlIyMUR3PT0K"
     }
   }
 }

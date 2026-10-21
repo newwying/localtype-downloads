@@ -1,4 +1,4 @@
-﻿Localtype 0.5.0 · macOS-AppleSilicon
+﻿Localtype 0.5.1 · macOS-AppleSilicon
 Run only the commands for your chosen CLI. Copy one command at a time.
 
 Copy, paste in Terminal with Command+V, then press Return
@@ -25,8 +25,35 @@ codex login
 Check sign-in
 codex login status
 
+Run only if the in-app installation failed
+curl -fsSL https://claude.ai/install.sh | bash
+
+Check the version
+claude --version
+
+Sign in
+claude auth login
+
+Check sign-in
+claude auth status
+
+Update an old version
+claude update
+
+Qwen Code install command (Mac)
+curl -fsSL https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen-standalone.sh | bash
+
+Qwen Code alternative (requires Node 22 or later)
+npm i -g @qwen-code/qwen-code@latest
+
+Kimi Code install command (Mac)
+curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash
+
 Practice text
 Research a shared task app for two people to manage groceries, chores and travel preparation. Compare phone and desktop support, explain the limits of the free plans, and recommend an option with links to original sources.
+
+Example: refer to a Skill by name
+Use $my-skill as context to improve this request: ...
 
 Example: replace this path first
 Use [My Skill](/Users/your-name/.codex/skills/my-skill/SKILL.md) as context to improve this request: ...
